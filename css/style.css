@@ -23,6 +23,7 @@ a {
 }
 .container {
   max-width: 1150px;
+  width: 100%;
   padding: 0 20px;
   margin: 0 auto;
 }
@@ -297,7 +298,6 @@ a {
 .brands {
   margin-bottom: 90px;
 }
-
 .container--brands {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -361,7 +361,6 @@ a {
 }
 .footer-secondary {
   min-height: 120px;
-  border-top: 1px solid #efefef;
   margin-top: 40px;
  
 }
@@ -371,18 +370,34 @@ a {
   gap: 20px;
   justify-content: center;
 }
-.footer-secondary__social--image {
+.footer-secondary__social {
   border: 2px solid #f13c6e;
-  border-radius: 40px;
-  padding: 10px;
-  width: 45px;
-  height: 45px;
-}
-.footer-secondary__politics {
+  border-radius: 50%;
+  align-items: center;
+  width: 40px;
+  height: 40px;
   display: flex;
   justify-content: center;
+}
+.footer__container {
+  max-width: 1150px;
+  margin: 0 auto;
+  padding: 0 20px ;
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+.border {
+  border-top: 1px solid  #efefef;
+  margin-bottom: 30px;
+}
+
+.footer-secondary__politics {
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
   align-items: center;
-  height: 64px;
+  min-height: 60px;
   background: #efefef;
   gap: 345px;
   font-size: 12px;
@@ -394,6 +409,5 @@ a {
   align-items: center;
   justify-content: space-between;
   gap: 40px;
-  max-width: 1150px;
-  padding: 25px 20px;
+
 }
