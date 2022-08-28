@@ -233,6 +233,7 @@ a {
   color: #ffffff;
 }
 .subscribe__description {
+  max-width: 286px;
   margin-top: 25px;
   line-height: 20px;
   color: #ffffff;
@@ -272,6 +273,7 @@ a {
   color: #ffffff;
 }
 .location__description {
+  max-width: 145px;
   margin-top: 25px;
   line-height: 20px;
   color: #ffffff;
@@ -293,7 +295,6 @@ a {
   border: 2px solid #ffffff;
   border-radius: 18px;
   padding: 0.5em 1em;
-
 }
 .brands {
   margin-bottom: 90px;
@@ -362,7 +363,6 @@ a {
 .footer-secondary {
   min-height: 120px;
   margin-top: 40px;
- 
 }
 .footer-secondary__logo {
   display: flex;
@@ -382,13 +382,13 @@ a {
 .footer__container {
   max-width: 1150px;
   margin: 0 auto;
-  padding: 0 20px ;
+  padding: 0 20px;
   display: flex;
   justify-content: space-between;
   gap: 40px;
 }
 .border {
-  border-top: 1px solid  #efefef;
+  border-top: 1px solid #efefef;
   margin-bottom: 30px;
 }
 
@@ -409,5 +409,4 @@ a {
   align-items: center;
   justify-content: space-between;
   gap: 40px;
-
 }
